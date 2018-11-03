@@ -15,3 +15,8 @@
         public CustomerModel Customer {get; set;}
     }
 }
+
+
+// R language code
+//> s<- list(Id = 0, street = "streetName", PostalCode = "1122", City = "City",PhoneNumber = "123456789")
+//> class(s) <- "AddressModel"

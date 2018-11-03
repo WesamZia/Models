@@ -1,9 +1,6 @@
 ﻿using Corp.Invesco.Helpers;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Corp.Invesco.Entities
 {
@@ -18,3 +15,8 @@ namespace Corp.Invesco.Entities
         public List<ProductModel> Products { get; set; }
     }
 }
+
+
+// R language code
+//> s<- list(Id = 0, OrderDate = "2018/10/29", Status = 0)
+//> class(s) <- "OrderModel"

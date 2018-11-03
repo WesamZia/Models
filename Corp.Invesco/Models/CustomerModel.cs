@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Corp.Invesco.Entities
 {
@@ -16,5 +12,12 @@ namespace Corp.Invesco.Entities
 
         public List<AddressModel> Addresses { get; set; }
 
+        public List<OrderModel> Orders { get; set; }
+
     }
 }
+
+
+// R language code
+//> s<- list(Id = 0, FullName = "FullName", FirstName = "FirstName")
+//> class(s) <- "CustomerModel"
